@@ -24,7 +24,7 @@ nav{
 
 .logo{
   font-family:"Playfair Display";
-  font-size:26px;
+  font-size:28px;
   color:#d4af37;
 }
 
@@ -50,7 +50,7 @@ nav{
 
 h2{
   color:#d4af37;
-  margin-bottom:20px;
+  margin-bottom:25px;
 }
 
 .grid{
@@ -64,16 +64,10 @@ h2{
   border:1px solid #222;
   border-radius:12px;
   overflow:hidden;
-  transition:0.3s;
-}
-
-.card:hover{
-  transform:translateY(-5px);
-  border-color:#d4af37;
 }
 
 .img{
-  height:200px;
+  height:220px;
   background-size:cover;
   background-position:center;
 }
@@ -97,13 +91,6 @@ button{
   font-weight:bold;
   cursor:pointer;
 }
-
-footer{
-  text-align:center;
-  padding:30px;
-  border-top:1px solid #222;
-  color:#777;
-}
 </style>
 </head>
 
@@ -115,7 +102,7 @@ footer{
 
 <div class="hero">
 <h1>Luxury Fragrances</h1>
-<p>Discover premium Arabian and niche perfumes with long-lasting performance and elegant presence.</p>
+<p>Premium Arabian & niche perfumes with elegance, power and long-lasting performance.</p>
 </div>
 
 <!-- ARABIAN -->
@@ -123,11 +110,12 @@ footer{
 <h2>Arabian Collection</h2>
 <div class="grid">
 
+<!-- 10 PRODUCTOS -->
 <div class="card">
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1594035910387-fea47794261f');"></div>
 <div class="content">
 <h3>Lattafa Asad</h3>
-<p>A bold oriental fragrance with warm spices and deep woody notes.</p>
+<p>Bold oriental spice with deep woody intensity.</p>
 <div class="price">$39.99</div>
 <button onclick="order('Lattafa Asad')">Buy Now</button>
 </div>
@@ -137,7 +125,7 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1615634262417-7d9d3fbe76f1');"></div>
 <div class="content">
 <h3>Lattafa Khamrah</h3>
-<p>Sweet, rich and luxurious with addictive warmth.</p>
+<p>Sweet, rich and addictive with warm depth.</p>
 <div class="price">$44.99</div>
 <button onclick="order('Lattafa Khamrah')">Buy Now</button>
 </div>
@@ -167,9 +155,39 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1600180758890-6b94519a8ba6');"></div>
 <div class="content">
 <h3>Badee Al Oud</h3>
-<p>Deep oud fragrance with powerful woody richness.</p>
+<p>Powerful oud richness with refined elegance.</p>
 <div class="price">$44.99</div>
 <button onclick="order('Badee Al Oud')">Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<div class="img" style="background-image:url('https://images.unsplash.com/photo-1592945403244-b3fbafd7f539');"></div>
+<div class="content">
+<h3>Amber Oud Gold</h3>
+<p>Fruity sweetness blended with luxury amber.</p>
+<div class="price">$59.99</div>
+<button onclick="order('Amber Oud Gold')">Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<div class="img" style="background-image:url('https://images.unsplash.com/photo-1585386959984-a41552231658');"></div>
+<div class="content">
+<h3>Detour Noir</h3>
+<p>Warm vanilla spice with seductive depth.</p>
+<div class="price">$49.99</div>
+<button onclick="order('Detour Noir')">Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<div class="img" style="background-image:url('https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd');"></div>
+<div class="content">
+<h3>Raghba</h3>
+<p>Sweet vanilla oud with oriental warmth.</p>
+<div class="price">$34.99</div>
+<button onclick="order('Raghba')">Buy Now</button>
 </div>
 </div>
 
@@ -185,7 +203,7 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1592945403244-b3fbafd7f539');"></div>
 <div class="content">
 <h3>Xerjoff Erba Pura</h3>
-<p>Fruity, vibrant and luxurious with a musky base.</p>
+<p>Luxury fruity explosion with musky elegance.</p>
 <div class="price">$79.99</div>
 <button onclick="order('Erba Pura')">Buy Now</button>
 </div>
@@ -195,9 +213,9 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd');"></div>
 <div class="content">
 <h3>Valentino Born In Roma</h3>
-<p>Modern elegance with a bold and refined character.</p>
+<p>Modern sophistication with bold elegance.</p>
 <div class="price">$69.99</div>
-<button onclick="order('Valentino Born In Roma')">Buy Now</button>
+<button onclick="order('Valentino')">Buy Now</button>
 </div>
 </div>
 
@@ -205,9 +223,9 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1600180758890-6b94519a8ba6');"></div>
 <div class="content">
 <h3>Versace Eros</h3>
-<p>Fresh, powerful and irresistibly seductive.</p>
+<p>Fresh mint, sweet vanilla and powerful presence.</p>
 <div class="price">$64.99</div>
-<button onclick="order('Versace Eros')">Buy Now</button>
+<button onclick="order('Eros')">Buy Now</button>
 </div>
 </div>
 
@@ -215,7 +233,7 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1600185365483-26d7a4cc7519');"></div>
 <div class="content">
 <h3>Invictus</h3>
-<p>Fresh aquatic energy with a sporty masculine vibe.</p>
+<p>Fresh aquatic energy with sporty masculinity.</p>
 <div class="price">$59.99</div>
 <button onclick="order('Invictus')">Buy Now</button>
 </div>
@@ -224,8 +242,8 @@ footer{
 <div class="card">
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1585386959984-a41552231658');"></div>
 <div class="content">
-<h3>Dolce & Gabbana Light Blue</h3>
-<p>Crisp citrus freshness with a clean Mediterranean feel.</p>
+<h3>Light Blue</h3>
+<p>Crisp citrus freshness with clean Mediterranean feel.</p>
 <div class="price">$54.99</div>
 <button onclick="order('Light Blue')">Buy Now</button>
 </div>
@@ -233,10 +251,6 @@ footer{
 
 </div>
 </div>
-
-<footer>
-© 2026 Perfumery Paradise
-</footer>
 
 <script>
 function order(product){
