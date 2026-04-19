@@ -15,21 +15,19 @@ body{
   color:white;
 }
 
-/* NAV */
 nav{
   display:flex;
-  justify-content:space-between;
-  padding:20px 40px;
+  justify-content:center;
+  padding:20px;
   border-bottom:1px solid #222;
 }
 
 .logo{
   font-family:"Playfair Display";
-  font-size:22px;
+  font-size:24px;
   color:#d4af37;
 }
 
-/* HERO */
 .hero{
   padding:80px 20px;
   text-align:center;
@@ -46,45 +44,34 @@ nav{
   margin:auto;
 }
 
-/* SECTION */
 .section{
   padding:40px 20px;
 }
 
 h2{
   color:#d4af37;
-  margin-bottom:25px;
+  margin-bottom:20px;
 }
 
-/* GRID */
 .grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
   gap:20px;
 }
 
-/* CARD */
 .card{
   background:#141414;
   border:1px solid #222;
   border-radius:12px;
   overflow:hidden;
-  transition:0.3s;
 }
 
-.card:hover{
-  transform:translateY(-5px);
-  border-color:#d4af37;
-}
-
-/* IMAGE */
 .img{
   height:200px;
   background-size:cover;
   background-position:center;
 }
 
-/* CONTENT */
 .content{
   padding:15px;
 }
@@ -94,7 +81,6 @@ h2{
   font-weight:bold;
 }
 
-/* BUTTON */
 button{
   width:100%;
   padding:10px;
@@ -106,7 +92,6 @@ button{
   cursor:pointer;
 }
 
-/* FOOTER */
 footer{
   text-align:center;
   padding:30px;
@@ -136,7 +121,7 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1594035910387-fea47794261f');"></div>
 <div class="content">
 <h3>Lattafa Asad</h3>
-<p>Warm spicy, powerful and long lasting.</p>
+<p>A bold oriental fragrance with warm spices and deep woody notes.</p>
 <div class="price">$39.99</div>
 <button onclick="order('Lattafa Asad')">Buy Now</button>
 </div>
@@ -146,7 +131,7 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1615634262417-7d9d3fbe76f1');"></div>
 <div class="content">
 <h3>Lattafa Khamrah</h3>
-<p>Sweet, rich and addictive.</p>
+<p>Sweet, rich and luxurious scent with addictive warmth.</p>
 <div class="price">$44.99</div>
 <button onclick="order('Lattafa Khamrah')">Buy Now</button>
 </div>
@@ -156,17 +141,17 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1585386959984-a41552231658');"></div>
 <div class="content">
 <h3>Afnan 9PM</h3>
-<p>Perfect for night, bold projection.</p>
+<p>Smooth, seductive and perfect for night wear.</p>
 <div class="price">$39.99</div>
 <button onclick="order('Afnan 9PM')">Buy Now</button>
 </div>
 </div>
 
 <div class="card">
-<div class="img" style="background-image:url('https://images.unsplash.com/photo-1600185365483-26d7a4cc7519');"></div>
+<div class="img" style="background-image:url('https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb');"></div>
 <div class="content">
-<h3>Club de Nuit Intense</h3>
-<p>Luxury inspired fresh-smoky scent.</p>
+<h3>Club de Nuit Intense Man</h3>
+<p>Fresh citrus opening with smoky masculine depth.</p>
 <div class="price">$49.99</div>
 <button onclick="order('Club de Nuit Intense')">Buy Now</button>
 </div>
@@ -183,8 +168,8 @@ footer{
 <div class="card">
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1592945403244-b3fbafd7f539');"></div>
 <div class="content">
-<h3>Erba Pura</h3>
-<p>Fruity luxury masterpiece.</p>
+<h3>Xerjoff Erba Pura</h3>
+<p>Fruity, vibrant and luxurious with a musky base.</p>
 <div class="price">$79.99</div>
 <button onclick="order('Erba Pura')">Buy Now</button>
 </div>
@@ -194,19 +179,9 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd');"></div>
 <div class="content">
 <h3>Valentino Born In Roma</h3>
-<p>Modern and elegant.</p>
+<p>Modern elegance with a bold and refined character.</p>
 <div class="price">$69.99</div>
 <button onclick="order('Valentino Born In Roma')">Buy Now</button>
-</div>
-</div>
-
-<div class="card">
-<div class="img" style="background-image:url('https://images.unsplash.com/photo-1585386959984-a41552231658');"></div>
-<div class="content">
-<h3>Mandarin Sky</h3>
-<p>Fresh citrus with sweetness.</p>
-<div class="price">$49.99</div>
-<button onclick="order('Mandarin Sky')">Buy Now</button>
 </div>
 </div>
 
@@ -214,9 +189,19 @@ footer{
 <div class="img" style="background-image:url('https://images.unsplash.com/photo-1600180758890-6b94519a8ba6');"></div>
 <div class="content">
 <h3>Versace Eros</h3>
-<p>Fresh, bold and seductive.</p>
+<p>Fresh, powerful and irresistibly seductive.</p>
 <div class="price">$64.99</div>
 <button onclick="order('Versace Eros')">Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<div class="img" style="background-image:url('https://images.unsplash.com/photo-1600185365483-26d7a4cc7519');"></div>
+<div class="content">
+<h3>Invictus</h3>
+<p>Fresh aquatic energy with a sporty masculine vibe.</p>
+<div class="price">$59.99</div>
+<button onclick="order('Invictus')">Buy Now</button>
 </div>
 </div>
 
@@ -229,7 +214,7 @@ footer{
 
 <script>
 function order(product){
-  window.location.href = "https://wa.me/?text=I want to buy " + product;
+  window.location.href = "https://wa.me/591TU_NUMERO?text=I want to buy " + product;
 }
 </script>
 
